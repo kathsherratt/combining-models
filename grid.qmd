@@ -1,0 +1,98 @@
+---
+title: "Combining models: claim grid"
+format: html
+---
+
+Working grid for a comment of about 1,500 words.
+Source passages are verbatim from the PhD analytic commentary (pp. 35 to 44) unless marked otherwise.
+Bracketed numbers are the thesis bibliography.
+Cut from the passages; do not add to them until the grid is settled.
+
+## Before the grid
+
+<!-- Q1: In one sentence, what should a modeller running a collaboration do differently after reading this? -->
+
+<!-- Q2: What is the single example you would keep if the piece could only have one? (SPI-M Rt is the candidate.) -->
+
+<!-- Q3: What does the systematic review need this piece to have said, so that it can start from here? -->
+
+## Grid
+
+| Para | Words | Claim | Evidence | Link to next |
+|---|---|---|---|---|
+| 1 | 200 | Combining models is evidence synthesis without a sampling frame | Opportunistic recruitment [89]; EMS review: independence rarely characterised | So what goes wrong? |
+| 2 | 300 | Bias at two levels: which models are sampled, and how they are parameterised | Lower bound on structural uncertainty [132]; SPI-M Rt confounded across data sources; eval-by-method: structure does not explain performance | The same threat plays out differently by task |
+| Table | | Three collaborations compared by sample, harmonisation, combination, interpretation | Thesis Table 1 | Each answer reflects a trade-off |
+| 3 | 250 | Consensus versus context: choosing a combination method is a judgement about heterogeneity, and an ethical one | Method spectrum from narrative to majority vote [103,106,107,27]; inequalities [147] | Even the right method needs a stable sample |
+| 4 | 250 | Consistency versus capacity: stable combinations need stable contributors, and the costs fall unevenly | Forecast Hub open call (>50 models, unstable) vs SPI-M (10 invited, stable, burnout); ensemble contribution as a misspecified counterfactual | So how should a collaboration choose? |
+| 5 | 300 | Criteria: favour context where outputs cannot be calibrated, consensus where dynamics are well defined; state the choice | Thesis criteria; restrict target, harmonise, match method to decision; limitation to high-resource settings | Open questions for the review |
+
+## Source passages
+
+### Para 1: the problem
+
+> Model combinations offer a focal point for this understanding, by synthesising multiple expert insights into a single estimate to be used for planning and action. However, this work repeatedly challenged the practice of aggregating across models with the need for their epidemiological interpretation.
+
+> To retain validity, a model combination should sample across this heterogeneity systematically. However, modelling collaborations typically recruit modellers opportunistically [89], without a pre-specified sampling strategy to account for either the diversity or quality of modelling representations of the target quantity. For example, recruitment may come from existing networks of expertise, with self-selected voluntary participation that fluctuates over time.
+
+> This opportunistic sampling of model components leaves model combinations open to both bias and confounding. This can affect the validity as well as reliability of resulting estimates.
+
+Update, EMS abstract (2026):
+
+> However, model independence is rarely characterised: many "independent" models share data, code, or assumptions.
+
+### Para 2: two levels of bias
+
+> Firstly, model combinations may be biased at the level of component models. At a theoretical level, model combinations can provide at most a lower bound on the uncertainty of the target quantity. This is because it is inherently unknown whether such an opportunistic sample captures the full range of structural uncertainty [132].
+
+> Secondly, model combinations may be biased at the level of model parameterisation. Model combinations aim to capture across the range of uncertainty expressed by equally valid parameterisations between models. At the same time, this may be confounded by heterogeneity in underlying epidemic dynamics. For example, aggregating across models that draw from multiple source populations with differing transmission patterns may confound a resulting combined estimate. This risks biasing a combined estimate, making it less accurate than any individual model representing homogenous epidemiological dynamics.
+
+> For example, we demonstrated the importance of retaining context in outbreak investigation. Given high methodological uncertainty in estimating the reproduction number, model combination was thought to create a more robust consensus. In this work, we showed that this was confounded by heterogeneous epidemic dynamics among populations represented in different data sources. In this case, model combination missed the opportunity for policy-relevant epidemiological context.
+
+> In this case, a superficially stable model combination may be fundamentally unreliable, and become more or less biased or confounded over time.
+
+Update, eval-by-method abstract:
+
+> No model structure was clearly different from the overall average (ratios 0.96 to 1.08 of the average LWIS, all intervals spanning 1).
+> Instead, performance was driven by factors varying between forecast targets, such as the epidemic trend.
+
+### Table: three collaborations
+
+Thesis Table 1, p. 36: SPI-M Rt estimation; European COVID-19 Forecast Hub; European COVID-19 Scenario Hub.
+Columns: sample, model harmonisation, published combination, epidemiological interpretation.
+
+### Para 3: consensus versus context
+
+> A central offer of collaborative work is to create a consensus, offering clarity and simplicity for decision support. However, in synthesising across multiple models, collaborative projects may face the competing aim of providing epidemiological context.
+
+> This choice of method requires a subjective judgement on the importance of representing heterogeneity. The subjectivity of this trade-off might also suggest an ethical responsibility in collaborative evidence synthesis. Against a constant context of underlying uncertainty, collaborations can select a method for model combination that indicates more or less strength of consensus.
+
+> Meanwhile, without an understanding of context a model combination may directly breach ethical criteria by aggregating across subpopulations with known inequalities in the risks of intervention [147].
+
+### Para 4: consistency versus capacity
+
+> Interpreting results from a model combination at least partly depends on understanding its component models. To create a consistent interpretation, a model combination therefore requires a consistent sample of component models.
+
+> For example, the European Forecast Hub used an open call strategy and had the largest sample of modelling teams among these collaborations, with over fifty models contributing over time. However, this was highly inconsistent as modelling teams joined and left. By contrast, the SPI-M collaboration included ten selectively invited models of the reproduction number, and all contributed outputs over two years [66]. However, in this work we also saw that maintaining such consistent contributions created burnout from the intensity and duration of this collaborative work.
+
+> The key concern of balancing consistent collaboration with capacity is that the costs and benefits from collaboration are asymmetric.
+
+Update, Oxford seminar (December 2025), slide 22:
+
+> Model importance: compare scores in "leave-one-model-out" (similar to model ablation). But this is a misspecified counterfactual.
+
+### Para 5: criteria
+
+> This might be preferred when models cannot be easily objectively calibrated, such as in scenario modelling or estimates of the reproduction number, or when planning requirements are highly sensitive to anomalies and extreme events, such as in early outbreak detection.
+
+> This approach might be used if the epidemiological context is relatively well defined, for example when future projections are limited to one or two generations of transmission; when there is a shared understanding of data generating processes; or when operational decisions are not likely to be impacted by underlying heterogeneity in epidemic dynamics.
+
+> The validity of multi-model combination could be addressed by restricting the target of analysis, harmonising model assumptions, and selecting a method of combination appropriate to the decision context.
+
+> A limitation throughout this work is that it offers little comparison to collaborative modelling across settings. This work focused on three collaborations tailored to the COVID-19 response. In particular, these focussed on high-resource settings that attracted a large amount of research capital and labour.
+
+## To do
+
+- Recover the thesis bibliography for the cited numbers (pp. 47 to 58 of the PDF).
+- Ask the PhD student about co-authorship.
+- Check the venue's comment format and word limit once a venue is chosen.
